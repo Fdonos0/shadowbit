@@ -1,0 +1,40 @@
+# Ignorar carpetas de compilación
+build/
+bin/
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.so
+*.dll
+*.dylib
+
+# Archivos de cmake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Archivos de logs y temporales
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Archivos de usuario/editor
+*.sublime-workspace
+*.sublime-project
+*.vscode/
+.idea/
+*.DS_Store
+
+# Ignorar wallets (por seguridad)
+*.keys
+*.address.txt
+*.wallet
+*.log
+
+# Docker
+shadowbit-data/
+
